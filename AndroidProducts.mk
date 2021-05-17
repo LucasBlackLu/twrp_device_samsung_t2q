@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_t2q.mk
+	$(LOCAL_DIR)/twrp_t2q.mk
 
-COMMON_LUNCH_CHOICES := omni_t2q-eng
+COMMON_LUNCH_CHOICES := twrp_t2q-eng

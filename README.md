@@ -5,7 +5,7 @@
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_t2q-eng
+lunch twrp_t2q-eng
 make recoveryimage
 ```
 
