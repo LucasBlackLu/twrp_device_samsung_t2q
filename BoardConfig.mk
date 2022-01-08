@@ -117,6 +117,7 @@ TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_THEME := portrait_hdpi
 TW_INCLUDE_FASTBOOTD := true
+TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone50/temp
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 561
 TW_DEFAULT_BRIGHTNESS := 255
