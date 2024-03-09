@@ -89,6 +89,10 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+# System as root
+BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig omr optics prism spu
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
