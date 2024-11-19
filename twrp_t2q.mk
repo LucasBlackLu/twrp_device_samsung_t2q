@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from t2q device
 $(call inherit-product, device/samsung/t2q/device.mk)
 
 PRODUCT_DEVICE := t2q
-PRODUCT_NAME := omni_t2q
+PRODUCT_NAME := twrp_t2q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G9960
 PRODUCT_MANUFACTURER := samsung
