@@ -50,6 +50,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := t2q_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/t2q
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/t2q/bootimg.mk
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
